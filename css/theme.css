@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 	margin:0px auto;
 }
 a,a:hover {
-	color:#cc580c;
+	color:#f7691d;
 	text-decoration: none;
 }
 img {max-width: 100%;}
@@ -38,6 +38,8 @@ img {max-width: 100%;}
 	 right:0px;
 	 bottom:0;
 }
+
+
 
 .navArea {
 	
@@ -68,15 +70,17 @@ img {max-width: 100%;}
 }
 /* Special class on .container surrounding .navbar,used for positioning it into place. */
 .navbar-wrapper {
-	background-color:#fff;
+	
+	background:#fff;
 	margin-top:0px;
 	height:80px;
 	position:relative;
 	z-index:15;
 }
+
 .navbar-wrapper .container {
 	padding:0px;
-
+	
 }
 .navbar-collapse {
 	padding:0;
@@ -85,8 +89,9 @@ img {max-width: 100%;}
 	max-height:100%;
 }
 .navbar.navbar-inverse.navbar-static-top {
+	
 	margin:0px auto;
-	background:none;
+	background:#cc580c;
 	color:#c3c8d6;
 	border:none;
 	font-family:'Open Sans',sans-serif;
@@ -95,12 +100,14 @@ img {max-width: 100%;}
 	text-transform:uppercase;
 }
 .navbar.navbar-inverse.navbar-static-top a {
+	
 	color:#fff;
 	padding:31px 16px;
 	line-height:18px;
 	text-align:center;
 }
 .navbar.navbar-inverse.navbar-static-top a:hover {
+	
 	background:none;
 	color:#fff;
 }
